@@ -1,0 +1,56 @@
+{
+    "label": "AWS SNS",
+    "name": "aws-sns",
+    "apiVersion": "v1",
+    "internal": false,
+    "configurationType": "GLOBAL",
+    "deployment": {
+        "profiles":[
+            {
+                "name": "default",
+                "label": "Default",
+                "memory": 256,
+                "description": "Default configuration"
+            }
+        ],
+        "allowMultipleInstances": true
+    },
+    "icon48": "https://storage.googleapis.com/static.slingrs.io/platform/endpoints/aws-sns.png",
+    "status": "ACTIVE",
+    "stores": [],
+    "events": [],
+    "functions": [
+        {
+            "label": "Send SMS",
+            "name": "_sendSMS"
+        },
+        {
+            "label": "Request using AWS SDK",
+            "name": "_requestAwsSdk"
+        }
+    ],
+    "scripts":[
+        "functions.js",
+        "sns-helpers.js"
+    ],
+    "configuration":[
+        {
+            "name": "accessKey",
+            "label": "AWS Access Key",
+            "type": "text",
+            "required": true
+        },
+        {
+            "name": "secretAccessKey",
+            "label": "AWS Secret Access Key",
+            "type": "password",
+            "required": true
+        },
+        {
+            "name": "region",
+            "label": "AWS Region",
+            "type": "text",
+            "required": true
+        }
+    ]
+}
