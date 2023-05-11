@@ -54,7 +54,8 @@
         "sns-helpers.js"
     ],
     "flowSteps":[
-        "apiCallAwsSns"
+        "apiCallAwsSns",
+        "sendSMSAwsSns"
     ],
     "configuration":[
         {
