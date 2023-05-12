@@ -32,7 +32,7 @@ import java.net.URI;
  *
  * <p>Created by hpacini on 03/06/19.
  */
-@SlingrEndpoint(name = "aws-sns")
+@SlingrEndpoint(name = "aws-sns", functionPrefix = "_")
 public class AwsSnsEndpoint extends HttpEndpoint {
 
     private static final Logger logger = LoggerFactory.getLogger(AwsSnsEndpoint.class);

@@ -1,0 +1,276 @@
+{
+  "fileName": "functions",
+  "endpointName": "awsSns",
+  "apiDescriptors": [
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/AddPermission"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/CheckIfPhoneNumberIsOptedOut"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/ConfirmSubscription"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/CreatePlatformApplication"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/CreatePlatformEndpoint"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/CreateTopic"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/DeleteEndpoint"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/DeletePlatformApplication"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/DeleteTopic"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/GetEndpointAttributes"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/GetPlatformApplicationAttributes"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/GetSMSAttributes"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/GetSubscriptionAttributes"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/GetTopicAttributes"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/ListEndpointsByPlatformApplication"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/ListPhoneNumbersOptedOut"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/ListPlatformApplications"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/ListSubscriptions"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/ListSubscriptionsByTopic"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/ListTopics"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/OptInPhoneNumber"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/Publish"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/RemovePermission"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/SetEndpointAttributes"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/SetPlatformApplicationAttributes"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/SetSMSAttributes"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/SetSubscriptionAttributes"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/SetTopicAttributes"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/Subscribe"
+    },
+    {
+      "method": "GET",
+      "prefix": "",
+      "suffix": "",
+      "omittableUrlParts": [
+        "Action"
+      ],
+      "url": "/Action/Unsubscribe"
+    }
+  ]
+}

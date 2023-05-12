@@ -1,0 +1,36 @@
+{
+  "label": "Send SMS",
+  "name": "sendSMSAwsSns",
+  "category": "integrations",
+  "description": "Sends a text message (SMS message) directly to a phone number.",
+  "inputs": [
+    {
+      "label": "Phone Number",
+      "name": "phoneNumber",
+      "type": "text",
+      "description": "The phone number to which you want to deliver an SMS message. Use E.164 format.",
+      "required": "false",
+      "options": {
+        "allowContextSelector": "false"
+      }
+    },
+    {
+      "label": "Message",
+      "name": "message",
+      "type": "text",
+      "description": "The message you want to send.",
+      "required": "true",
+      "options": {
+        "allowContextSelector": "false"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "label": "Response",
+      "name": "response",
+      "type": "object",
+      "description": "The response to external URL"
+    }
+  ]
+}
